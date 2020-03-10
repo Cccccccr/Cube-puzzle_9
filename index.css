@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#title{
+    width: 100%;
+    text-shadow: rgb(100, 84, 84) 6px 3px 4px;
+    color: rgb(40, 158, 212);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ps2{
+    position: relative;
+    transform: translateY(20px) translateX(150px);
+    /* background-color: black; */
+    height: 60px;
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    background-color: teal;
+}
+
+#ps22{
+    display: flex; 
+    flex-direction: row; 
+    /* position: relative; */
+    width: auto;
+}
+
+#pl{
+    position: relative;
+    font-size: 25px;
+    font-weight: 500;
+    z-index: 2;
+    color: white;
+}
+
+#pr{
+    position: relative;
+    /* display: flex; */
+    font-size: 25px;
+    font-weight: 500;
+    height: 100%;
+    /* background-color: orchid; */
+}
+
+#prt{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 500;
+    z-index: 2;
+}
+
+#bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    z-index: -1;
+    /* transform: translateY(-100%); */
+    border-radius: 10%;
+    top: 0;
+}
+
+#outer_circle{
+    position: relative;
+    top: 30px;
+    left: 100px;
+    height: 100px;
+    width: 100px;
+    border: .5px solid black;
+    border-radius: 50%;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    background-color: white;
+    z-index: 10;
+    transition: all 2s ease 0s;
+}
+
+/* #outer_circle:hover{
+    transform: rotateZ(180deg);
+} */
+
+#under_part{
+    height: 50%;
+    width: 100%;
+    z-index: 10;
+}
+
+#supper_part{
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    z-index: 10;
+}
+
+#small_circle1{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    background-color: black;
+    top: 25%;
+    z-index: 10;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#small_circle2{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    background-color: white;
+    top: 25%;
+    left: 50%;
+    z-index: 10;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#little_circle1{
+    position: relative;
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#little_circle2{
+    position: relative;
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#Block_Puzzle9{
+    position: relative;
+    height: 230px;
+    width: 230px;
+    transform: translate(100px, 50px);
+    border: black 5px solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#bpBox{
+    height: 210px;
+    width: 210px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.BP{
+    height: 70px;
+    width: 70px;
+    transform: scale(0.9);
+    transition: all 1s ease 0s;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    user-select: none;
+    z-index: 20;
+    mix-blend-mode: screen;
+    border-radius: 25%;
+}
+
+#BP_1{
+    background-color: orange;
+}
+
+#BP_2{
+    background-color: olive;
+}
+
+#BP_3{
+    background-color: darkcyan;
+}
+
+#BP_4{
+    background-color: skyblue;
+}
+
+#BP_5{
+    background-color: slategrey;
+}
+
+#BP_6{
+    background-color: slateblue;
+}
+
+#BP_7{
+    background-color: tomato;
+}
+
+#BP_8{
+    background-color: peru;
+}
+
+#BP_9{
+    background-color: goldenrod;
+    /* z-index: 10; */
+}
+
+
